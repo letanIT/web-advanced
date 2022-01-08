@@ -18,7 +18,7 @@ function cookieHandle(cookie, next) {
     }
 
     const token = cookie["jwt"]
-    const data = jwt.verify(token, process.env.JWT_KEY);
+    const data = jwt.verify(token, Bv7Y8mnscuKv5P7Tqp9gEraA8yg7gSquRP6Tg4Fz3LdNu9LV);
 
     if (!data) {
         const err = new Error('Unauthorized');

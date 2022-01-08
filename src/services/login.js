@@ -10,7 +10,7 @@ async function sign_token_to_user(acc) {
         {
             _id: acc["_id"]
         },
-        process.env.JWT_KEY,
+        Bv7Y8mnscuKv5P7Tqp9gEraA8yg7gSquRP6Tg4Fz3LdNu9LV,
         {
             expiresIn: '2h',
         }
