@@ -15,7 +15,6 @@ router.get('/', async function (req, res) {
 
 router.post('/view', auth, async function (req, res, next) {
     try {
-        console.log('I want more, bae')
         const you = req["user_profile"]
         const user_id = req.body["my_feed"] ? you._id : req.body["host_id"]
         const feed_index = req.body["feedIndex"] || 1

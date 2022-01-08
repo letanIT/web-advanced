@@ -13,7 +13,6 @@ const NotificationSchema = new Schema({
     topic: {
         type: String,
         required: [true, 'Why no topic?'],
-        // enum: ['Học phí', 'Khoa CNTT', 'Đoàn hội', 'Phòng đại học'],
     },
     uploader : {
         type: Schema.Types.ObjectId,
