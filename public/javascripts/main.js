@@ -478,7 +478,7 @@ $(document).ready(function () {
         }
     });
 })
-let socketClient = io.connect('https://universitysocial.herokuapp.com/');
+let socketClient = io.connect('https://web-advanced.herokuapp.com/');
 
 socketClient.on('outside', function () {
     beep()
