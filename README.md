@@ -1,10 +1,10 @@
-# uni_social
+# Web advanced
 Live version on: https://web-advanced.herokuapp.com
 
 Run local:
 1. Set up
 - clone project
-- cd uni_social-dev
+- cd web-advanced
 - npm install
 2. Run
 - npm start or node server.js
